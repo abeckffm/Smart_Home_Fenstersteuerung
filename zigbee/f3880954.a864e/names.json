@@ -1,0 +1,386 @@
+{
+  "0x00158d000202babe": {
+    "name": "",
+    "epDesc": [
+      {
+        "profId": 260,
+        "epId": 1,
+        "devId": 1026,
+        "inClusterList": [
+          0,
+          1,
+          3,
+          1280,
+          65535
+        ],
+        "outClusterList": []
+      }
+    ],
+    "type": "EndDevice",
+    "ieeeAddr": "0x00158d000202babe",
+    "nwkAddr": 64133,
+    "manufId": 4151,
+    "manufName": "ADUROLIGHT",
+    "powerSource": "Battery",
+    "modelId": "CSW_ADUROLIGHT",
+    "epList": [
+      1
+    ],
+    "status": "offline",
+    "joinTime": null,
+    "ts": 1580998864056
+  },
+  "0x00124b0009726d06": {
+    "name": "",
+    "epDesc": [
+      {
+        "profId": 260,
+        "epId": 1,
+        "devId": 1026,
+        "inClusterList": [
+          0,
+          3,
+          1280
+        ],
+        "outClusterList": [
+          0
+        ]
+      },
+      {
+        "profId": 260,
+        "epId": 2,
+        "devId": 262,
+        "inClusterList": [
+          0
+        ],
+        "outClusterList": [
+          0
+        ]
+      },
+      {
+        "profId": 260,
+        "epId": 4,
+        "devId": 1026,
+        "inClusterList": [],
+        "outClusterList": [
+          25
+        ]
+      }
+    ],
+    "type": "EndDevice",
+    "ieeeAddr": "0x00124b0009726d06",
+    "nwkAddr": 38783,
+    "manufId": 0,
+    "manufName": "Bitron Video",
+    "powerSource": "Battery",
+    "modelId": "AV2010/22A",
+    "epList": [
+      1,
+      2,
+      4
+    ],
+    "status": "offline",
+    "joinTime": null,
+    "ts": 1580998864056
+  },
+  "0x00178801043cafe3": {
+    "name": "",
+    "epDesc": [
+      {
+        "profId": 49246,
+        "epId": 11,
+        "devId": 528,
+        "inClusterList": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          768,
+          4096,
+          64513
+        ],
+        "outClusterList": [
+          25
+        ]
+      },
+      {
+        "profId": 41440,
+        "epId": 242,
+        "devId": 97,
+        "inClusterList": [
+          33
+        ],
+        "outClusterList": [
+          33
+        ]
+      }
+    ],
+    "type": "Router",
+    "ieeeAddr": "0x00178801043cafe3",
+    "nwkAddr": 41732,
+    "manufId": 4107,
+    "manufName": "Philips",
+    "powerSource": "Mains (single phase)",
+    "modelId": "LCT015",
+    "epList": [
+      11,
+      242
+    ],
+    "status": "offline",
+    "joinTime": null,
+    "ts": 1580998864056
+  },
+  "0x841826000000e16a": {
+    "name": "",
+    "epDesc": [
+      {
+        "profId": 49246,
+        "epId": 3,
+        "devId": 544,
+        "inClusterList": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          768,
+          4096,
+          64516,
+          64527
+        ],
+        "outClusterList": [
+          25
+        ]
+      }
+    ],
+    "type": "Router",
+    "ieeeAddr": "0x841826000000e16a",
+    "nwkAddr": 57356,
+    "manufId": 48042,
+    "manufName": "OSRAM",
+    "modelId": "Classic A60 TW",
+    "epList": [
+      3
+    ],
+    "status": "offline",
+    "joinTime": null,
+    "ts": 1580998864056
+  },
+  "0x84182600000ef2a1": {
+    "name": "",
+    "epDesc": [
+      {
+        "profId": 49246,
+        "epId": 3,
+        "devId": 16,
+        "inClusterList": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          2820,
+          4096,
+          64527
+        ],
+        "outClusterList": [
+          25
+        ]
+      }
+    ],
+    "type": "Router",
+    "ieeeAddr": "0x84182600000ef2a1",
+    "nwkAddr": 33578,
+    "manufId": 48042,
+    "manufName": "OSRAM",
+    "powerSource": "Mains (single phase)",
+    "modelId": "Plug 01",
+    "epList": [
+      3
+    ],
+    "status": "offline",
+    "joinTime": null,
+    "ts": 1580998868596
+  },
+  "0x00124b0015784b06": {
+    "name": "",
+    "epDesc": [
+      {
+        "profId": 260,
+        "epId": 1,
+        "devId": 257,
+        "inClusterList": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "outClusterList": [
+          0
+        ]
+      },
+      {
+        "profId": 260,
+        "epId": 4,
+        "devId": 257,
+        "inClusterList": [],
+        "outClusterList": [
+          25
+        ]
+      }
+    ],
+    "type": "Router",
+    "ieeeAddr": "0x00124b0015784b06",
+    "nwkAddr": 4595,
+    "manufId": 0,
+    "manufName": "Bitron Video",
+    "powerSource": "Mains (single phase)",
+    "modelId": "902010/26",
+    "epList": [
+      1,
+      4
+    ],
+    "status": "offline",
+    "joinTime": null,
+    "ts": 1580998864056
+  },
+  "0x005043c9a3374090": {
+    "name": "",
+    "epDesc": [
+      {
+        "profId": 260,
+        "epId": 1,
+        "devId": 1026,
+        "inClusterList": [
+          0,
+          1,
+          3,
+          9,
+          1280,
+          1282
+        ],
+        "outClusterList": [
+          25
+        ]
+      }
+    ],
+    "type": "EndDevice",
+    "ieeeAddr": "0x005043c9a3374090",
+    "nwkAddr": 8985,
+    "manufId": 48042,
+    "manufName": "Heiman",
+    "powerSource": "Battery",
+    "modelId": "SMOK_YDLV10",
+    "epList": [
+      1
+    ],
+    "status": "offline",
+    "joinTime": null,
+    "ts": 1580998933714
+  },
+  "0x00158d0001922e70": {
+    "name": "",
+    "epDesc": [
+      {
+        "profId": 260,
+        "epId": 1,
+        "devId": 769,
+        "inClusterList": [
+          0,
+          1,
+          3,
+          10,
+          25,
+          513
+        ],
+        "outClusterList": [
+          0,
+          1,
+          3,
+          4,
+          10,
+          25,
+          513
+        ]
+      }
+    ],
+    "type": "EndDevice",
+    "ieeeAddr": "0x00158d0001922e70",
+    "nwkAddr": 54165,
+    "manufId": 4151,
+    "manufName": "Eurotronic",
+    "powerSource": "Battery",
+    "modelId": "SPZB0001",
+    "epList": [
+      1
+    ],
+    "status": "offline",
+    "joinTime": null
+  },
+  "0x00124b0018e859a8": {
+    "name": "",
+    "epDesc": [
+      {
+        "profId": 260,
+        "epId": 1,
+        "devId": 5,
+        "inClusterList": [],
+        "outClusterList": []
+      },
+      {
+        "profId": 257,
+        "epId": 2,
+        "devId": 5,
+        "inClusterList": [],
+        "outClusterList": []
+      },
+      {
+        "profId": 261,
+        "epId": 3,
+        "devId": 5,
+        "inClusterList": [],
+        "outClusterList": []
+      },
+      {
+        "profId": 263,
+        "epId": 4,
+        "devId": 5,
+        "inClusterList": [],
+        "outClusterList": []
+      },
+      {
+        "profId": 264,
+        "epId": 5,
+        "devId": 5,
+        "inClusterList": [],
+        "outClusterList": []
+      },
+      {
+        "profId": 265,
+        "epId": 6,
+        "devId": 5,
+        "inClusterList": [],
+        "outClusterList": []
+      }
+    ],
+    "type": "Coordinator",
+    "ieeeAddr": "0x00124b0018e859a8",
+    "nwkAddr": 0,
+    "manufId": 0,
+    "epList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "status": "online",
+    "joinTime": 1611336146
+  }
+}

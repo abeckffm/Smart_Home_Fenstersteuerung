@@ -1,0 +1,78 @@
+/// <reference types="node" />
+import events from 'events';
+import { Command, parameterT, ApsDataRequest, ReceivedDataResponse } from './constants';
+declare var busyQueue: Array<object>;
+declare var apsBusyQueue: Array<object>;
+declare var readyToSend: boolean;
+declare function enableRTS(): void;
+declare function disableRTS(): void;
+declare var enableRtsTimeout: ReturnType<typeof setTimeout>;
+export { busyQueue, apsBusyQueue, readyToSend, enableRTS, disableRTS, enableRtsTimeout };
+declare class Driver extends events.EventEmitter {
+    private path;
+    private serialPort;
+    private initialized;
+    private writer;
+    private parser;
+    private frameParserEvent;
+    private seqNumber;
+    private timeoutResetTimeout;
+    private apsRequestFreeSlots;
+    private apsDataConfirm;
+    private apsDataIndication;
+    private configChanged;
+    private portType;
+    private socketPort;
+    private DELAY;
+    private READY_TO_SEND_TIMEOUT;
+    private HANDLE_DEVICE_STATUS_DELAY;
+    private PROCESS_QUEUES;
+    constructor(path: string);
+    setDelay(delay: number): void;
+    static isValidPath(path: string): Promise<boolean>;
+    static autoDetectPath(): Promise<string>;
+    private onPortClose;
+    open(): Promise<void>;
+    openSerialPort(): Promise<void>;
+    private openSocketPort;
+    close(): Promise<void>;
+    readParameterRequest(parameterId: number): Promise<Command>;
+    writeParameterRequest(parameterId: number, parameter: parameterT): Promise<void>;
+    readFirmwareVersionRequest(): Promise<number[]>;
+    private sendReadParameterRequest;
+    private sendWriteParameterRequest;
+    private getLengthOfParameter;
+    private parameterBuffer;
+    private sendReadFirmwareVersionRequest;
+    private sendReadDeviceStateRequest;
+    private sendRequest;
+    private processQueue;
+    private processBusyQueue;
+    changeNetworkStateRequest(networkState: number): Promise<void>;
+    private sendChangeNetworkStateRequest;
+    private deviceStateRequest;
+    private checkDeviceStatus;
+    private handleDeviceStatus;
+    private readReceivedDataRequest;
+    enqueueSendDataRequest(request: ApsDataRequest): Promise<void | ReceivedDataResponse>;
+    private querySendDataStateRequest;
+    private processApsQueue;
+    private processApsConfirmIndQueue;
+    private sendQueryDataStateRequest;
+    private sendReadReceivedDataRequest;
+    private sendEnqueueSendDataRequest;
+    private processApsBusyQueue;
+    private calcCrc;
+    macAddrStringToArray(addr: string): Array<number>;
+    macAddrArrayToString(addr: Array<number>): string;
+    /**
+     *  generalArrayToString result is not reversed!
+     */
+    generalArrayToString(key: Array<number>, length: number): string;
+    private nextSeqNumber;
+    private onParsed;
+    private sleep;
+    private resetTimeoutCounterAfter1min;
+}
+export default Driver;
+//# sourceMappingURL=driver.d.ts.map
