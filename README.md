@@ -1,4 +1,4 @@
-# Smart_Home_Fenstersteuerung
+# Smart Home - Window Control
 
 The aim of this project is a cost-effective, environmentally friendly, modern and accessible concept of indoor air conditioning of a household.
 
