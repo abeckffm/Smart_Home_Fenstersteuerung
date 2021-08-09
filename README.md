@@ -11,3 +11,7 @@ The user has the possibility to monitor the indoor and outdoor climatic conditio
 The solution is modular and can be expanded with more sensors and actuators as needed. All possible states and the corresponding system actions are recorded in a text file and can be easily adapted or transferred to other similar systems without special knowledge.
 
 This Project uses Raspberry Pi, Node-Red and zigbee2mqtt technology.
+
+
+To use the Dashboard you need to go "localhost:1880/ui/"
+To view and edit the Flows go to "localhost:1880/"
