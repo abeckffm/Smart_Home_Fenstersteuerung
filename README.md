@@ -13,5 +13,25 @@ The solution is modular and can be expanded with more sensors and actuators as n
 This Project uses Raspberry Pi, Node-Red and zigbee2mqtt technology.
 
 
-To use the Dashboard you need to go "localhost:1880/ui/"
-To view and edit the Flows go to "localhost:1880/"
+
+Instalation Steps:
+----------------------------------------------
+1. Install MQTT Server like "Mosquitto": https://mosquitto.org/download/
+2. Install ZigBee2MQTT Application: https://www.zigbee2mqtt.io/
+3. Install Node-RED programming tool: https://nodered.org/docs/getting-started/
+4. Download and copy this Repository in your Node-RED Folder
+5. Start all services
+6. Call Website:
+- to view and edit the Flows go to "localhost:1880/"
+- to use the Dashboard you need to go "localhost:1880/ui/" 
+
+Requirments: ZigBee capable antenna
+
+Devices used for this prototype:
+----------------------------------------------
+
+- Raspberry Pi 3 Model B+ mit
+- with Texas Instruments CC2531 Antenne
+- ZigBee Curtain Module QS-Zigbee-C01
+- Apricolor Varia Chainmotor
+- Tuya TS0601 Airsensor
